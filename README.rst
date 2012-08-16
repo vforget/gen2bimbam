@@ -11,7 +11,7 @@ Converts GEN_ files from SNPTEST or IMPUTE to mean genotype files used with BIMB
 Example
 -------
 
-To convert data::
+To convert imputed genotypes in GEN format::
 
  process_gen.bash <path_to_genfiles>/*.gen
 
@@ -22,6 +22,8 @@ The programs requires:
 
 * Python and a Linux environment. Tested with Python 2.6.6 on CentOS 6.
 * The multiprocessing python module. Should be included in most recent python distributions.
+
+Put both scripts (process_gen.bash and 01_gen_to_mgf.py) in the same directory. Grant both scripts execute permissions.
 
 Usage
 -----
