@@ -1,5 +1,7 @@
+==========
 gen2bimbam
 ==========
+:Author: Vince Forgetta <vincenzo.forgetta@mail.mcgill.ca>
 
 Converts GEN_ files from SNPTEST or IMPUTE to mean genotype files used with BIMBAM_
 
@@ -28,7 +30,3 @@ Within the process_gen script the following parameters can be modified:
 
 * POOL_SIZE: The number of processors to use. Each processor uses about 300MB of physical memory (define by buffer_size in the python script).
 * TMPDIR: Location to store temporary files.
-
-Author
-------
-Vince Forgetta, vincenzo.forgetta@mail.mcgill.ca
