@@ -1,19 +1,24 @@
 gen2bimbam
 ==========
 
-Converts GEN files from SNPTEST or IMPUTE to mean genotype files used with BIMBAM
+Converts GEN_ files from SNPTEST or IMPUTE to mean genotype files used with BIMBAM_
+
+.. _GEN: http://www.stats.ox.ac.uk/~marchini/software/gwas/file_format.html#Genotype_File_Format
+.. _BIMBAM: http://www.bcm.edu/cnrc/mcmcmc/index.cfm?pmid=18981
 
 Example
 -------
 
-process_gen.bash <path_to_genfiles>/*.gen
+To convert data::
+
+ process_gen.bash <path_to_genfiles>/*.gen
 
 Installation
 ------------
 
 The programs requires:
 
-* Python and a *nix environment. Tested with Python 2.6.6 on CentOS 6.
+* Python and a Linux environment. Tested with Python 2.6.6 on CentOS 6.
 * The multiprocessing python module. Should be included in most recent python distributions.
 
 Usage
